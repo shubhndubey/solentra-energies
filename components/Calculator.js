@@ -19,7 +19,7 @@ export default function Calculator({ lockSegment, defaultBill = 4000, title = "S
   const segment = SEGMENTS.find((s) => s.key === segmentKey) || SEGMENTS[0];
 
   const results = useMemo(() => {
-    const tariff = 7;
+    const tariff = 10; // ₹/unit, assumed average for MP domestic tariff slabs
     const monthlyUnits = bill / tariff;
     const yearlyUnits = monthlyUnits * 12;
     let sizeKw = yearlyUnits / segment.yieldKwh;

@@ -33,7 +33,7 @@ export default function Footer() {
           <div>
             <h5 className="font-display text-xs uppercase tracking-wider text-white mb-4">Contact</h5>
             <ul className="flex flex-col gap-2.5">
-              <li className="text-sun font-medium">+91-XXXXXXXXXX</li>
+              <li className="text-sun font-medium">+91-9977030962</li>
               <li className="text-sun font-medium">hello@solentraenergies.in</li>
               <li className="text-sun font-medium">Badnagar, Madhya Pradesh (Head Office)</li>
             </ul>

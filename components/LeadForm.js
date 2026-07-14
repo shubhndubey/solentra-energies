@@ -37,7 +37,7 @@ export default function LeadForm({ defaultPropertyType, defaultCity }) {
         <input type="text" placeholder="PIN code" required pattern="[0-9]{6}" maxLength={6} className="input-field" />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-        <select required defaultValue={defaultPropertyType || ""} className="input-field">
+        {/* <select required defaultValue={defaultPropertyType || ""} className="input-field">
           <option value="" disabled>Property type</option>
           <option value="Home">Home</option>
           <option value="Housing society / RWA">Housing society / RWA</option>
@@ -50,7 +50,7 @@ export default function LeadForm({ defaultPropertyType, defaultCity }) {
           <option value="2500-4000">₹2,500 – ₹4,000</option>
           <option value="4000-8000">₹4,000 – ₹8,000</option>
           <option value=">8000">More than ₹8,000</option>
-        </select>
+        </select> */}
       </div>
       <label className="flex items-start gap-2.5 text-[12.5px] text-[#586378]">
         <input type="checkbox" required className="mt-0.5" />
